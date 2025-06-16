@@ -1,7 +1,16 @@
-export default function Home() {
+import Footer from "@/components/Footer";
+import Menu from "@/components/Menu";
+
+const Home = () => {
   return (
     <div>
-      <h2>Teste Node !!! - v1.1</h2>
+      <Menu /><br></br>
+      <h2>Bem-vindo</h2><br />
+      <Footer />
     </div>
+
+
   );
 }
+
+export default Home;

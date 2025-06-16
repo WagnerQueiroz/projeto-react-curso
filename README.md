@@ -47,3 +47,7 @@ git push -u origin main
 git remote add origin https://github.com/WagnerQueiroz/projeto-react-curso.git
 git branch -M main
 git push -u origin main
+
+
+npm install
+npm run dev
